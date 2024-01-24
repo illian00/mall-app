@@ -1,0 +1,52 @@
+name: mally
+description: A new Flutter project.
+version: 1.0.0+1
+environment: 
+  sdk: '>=3.2.3 <4.0.0'
+dependencies: 
+  flutter: 
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  camera: ^0.10.5+2
+  path: ^1.8.0
+  path_provider: ^2.0.15
+  image_gallery_saver: ^2.0.1
+  gallery_saver: ^2.3.2
+  permission_handler: ^10.2.0
+  flutter_barcode_scanner: ^2.0.0
+  url_launcher: ^6.1.11
+  flutter_xlider: ^3.5.0
+  assets_audio_player: ^3.0.4+3
+  syncfusion_flutter_sliders: ^21.2.9
+  image_picker: ^0.8.7+5
+  image: ^3.0.3
+  cached_network_image: ^3.2.1
+  flutter_svg: ^1.1.6
+  google_maps_flutter: ^2.5.0
+  google_maps_flutter_web: ^0.5.4+2
+  intl: ^0.18.0
+
+dev_dependencies: 
+  flutter_test: 
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter: 
+  uses-material-design: true
+  assets: 
+    - music/
+    - assets/
+    - assets/images/
+
+  fonts: 
+    - family: Poppins
+      fonts: 
+        - asset: assets/fonts/PoppinsMedium.ttf
+          weight: 500
+        - asset: assets/fonts/PoppinsRegular.ttf
+          weight: 400
+    - family: Inter
+      fonts: 
+        - asset: assets/fonts/InterRegular.ttf
+          weight: 400
